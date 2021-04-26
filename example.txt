@@ -1,0 +1,13 @@
+type Query {
+	person(id:String):Person
+	post: Post
+}
+
+type Mutation {
+	createPerson(name:String!, age:Int!):	
+}
+
+type Person {
+	name: String
+	age: Int
+}
